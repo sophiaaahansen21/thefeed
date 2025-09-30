@@ -121,19 +121,19 @@ a[href="reflections.html"]:hover {
 }
 
 a[href="touchinggrass.html"] {
-  color:rgb(255,192,203);
+  color:rgb(151, 86, 200);
   display: inline-block;
   margin-bottom: 20px;
 }
 a[href="touchinggrass.html"]:hover {
-  color:rgb(255,192,203);
+  color:rgb(151, 86, 200);
 }
 
 .intro a {
   display: inline-block;   
   margin-top: 10px;        
   text-decoration: none;
-  color:rgb(255,192,203);
+  color:rgb(151, 86, 200);
   font-weight: bold;
 }
 
@@ -220,6 +220,11 @@ img:hover {
   border-radius: 50%;
 }
 
+.heart:hover::before,
+.heart:hover::after {
+  background-color: rgb(255, 105, 180);
+}
+
 .heart::before {
   top: -50px;
   left: 0;
@@ -234,7 +239,7 @@ img:hover {
   position: relative;
   transform: rotate(45deg);
   text-decoration: none;
-  color: rgb (255, 192, 203);
+  color: rgb(151, 86, 200);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   font-weight: bold;
@@ -246,9 +251,3 @@ img:hover {
   background-color: rgb(255, 105, 180); 
   transform: rotate(-45deg) scale(1.08);
 }
-
-.heart:hover::before,
-.heart:hover::after {
-  background-color: rgb(255, 105, 180);
-}
-
